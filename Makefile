@@ -28,7 +28,7 @@ clean:
 
 install: displayboot
 	install -d $(DESTDIR)/opt/ottercast-displayboot
-	install -m 755 ottercast-displayboot $(DESTDIR)/opt/ottercast-displayboot/
+	install -m 755 displayboot $(DESTDIR)/opt/ottercast-displayboot/
 	install -m 755 fb.raw $(DESTDIR)/opt/ottercast-displayboot/
 	install -m 755 UbuntuMono.ttf $(DESTDIR)/opt/ottercast-displayboot/
 
